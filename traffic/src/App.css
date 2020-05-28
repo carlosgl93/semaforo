@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+#block {
+  min-height: 500px;
+  max-width: 125px;
+}
+
+.lights div {
+  max-height: 100px;
+  background-color: black;
+}
+
+div button {
+  border-radius: 50%; 
+}
+
+
+.light.red .on {
+-webkit-box-shadow: inset -7px 2px 152px 5px rgba(213,52,71,1);
+-moz-box-shadow: inset -7px 2px 152px 5px rgba(213,52,71,1);
+box-shadow: inset -7px 2px 152px 5px rgba(213,52,71,1);
+}
+.light.yellow .on {
+-webkit-box-shadow: inset -7px 2px 152px 5px rgba(222,228,37,1);
+-moz-box-shadow: inset -7px 2px 152px 5px rgba(222,228,37,1);
+box-shadow: inset -7px 2px 152px 5px rgba(222,228,37,1);
+}
+
+.light.green .on {
+-webkit-box-shadow: inset -7px 2px 152px 5px rgba(90,239,26,1);
+-moz-box-shadow: inset -7px 2px 152px 5px rgba(90,239,26,1);
+box-shadow: inset -7px 2px 152px 5px rgba(90,239,26,1);
+}
+
